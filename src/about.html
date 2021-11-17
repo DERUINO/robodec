@@ -8,12 +8,7 @@
 
     <title>О сайте/Виртуальный дизайнер</title>
 
-	<link rel="shortcut icon" href="css/images/favicon.png" type="image/png">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
   </head>
 
   <body>
@@ -21,7 +16,7 @@
     <div class="container_fluid wrapper">
 
 		<!--header-->
-    	<?php include ('header.php') ?>
+    	<?php include ('components/header.php') ?>
     	<!--/header-->
 
     	<!--mainblock-->
@@ -29,14 +24,14 @@
 			<div class="row myrow justify-content-center">
 
 				<!--leftbanners-->
-				<?php include ('leftbanners.php') ?>
+				<?php include ('components/leftbanners.php') ?>
 				<!--/leftbanners-->
 
 				<div class="mycol col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
 					<div class="mainblock static">
 
 						<!--menu-->
-						<?php include('menu.php') ?>
+						<?php include('components/menu.php') ?>
 						<!--/menu-->
 
 						<!--aboutscreen-->
@@ -45,7 +40,7 @@
 								О САЙТЕ ROBODEC
 							</div>
 							<div class="about_text">
-								<p><img src="css/images/about.png" alt="" width="30%">
+								<p><img src="assets/images/about.png" alt="" width="30%">
 								<span>Сайт ROBODEC создан группой дизайнеров по мебели из Санкт-Петербурга.</p>
 								<p>Данный сервис позволяет грамотно и быстро спроектировать 3D проект вашей будущей мебели,
 								который полностью будет удовлетворять вашим желаниям и потребностям. В конце серии
@@ -67,12 +62,12 @@
 							<div class="row myrow align-items-center">
 								<div class="col-12 about_links align-self-center">
 									<span>ПОДЕЛИТЬСЯ:</span>
-									<a href="#"><img src="css/images/whatsapp.png" alt="" width="26px"></a>
-									<a href="#"><img src="css/images/viber.jpg" alt="" width="26px"></a>
-									<a href="#"><img src="css/images/telegram.png" alt="" width="26px"></a>
-									<a href="#"><img src="css/images/vk.png" alt="" width="26px"></a>
-									<a href="#"><img src="css/images/instagram.jpg" alt="" width="26px"></a>
-									<a href="#"><img src="css/images/facebook.png" alt="" width="26px"></a>
+									<a href="#"><img src="assets/images/whatsapp.png" alt="" width="26px"></a>
+									<a href="#"><img src="assets/images/viber.jpg" alt="" width="26px"></a>
+									<a href="#"><img src="assets/images/telegram.png" alt="" width="26px"></a>
+									<a href="#"><img src="assets/images/vk.png" alt="" width="26px"></a>
+									<a href="#"><img src="assets/images/instagram.jpg" alt="" width="26px"></a>
+									<a href="#"><img src="assets/images/facebook.png" alt="" width="26px"></a>
 								</div>	
 							</div>
 						</div>
@@ -82,7 +77,7 @@
 				</div>
 
 				<!--rightbanners-->
-				<?php include ('rightbanners.php') ?>
+				<?php include ('components/rightbanners.php') ?>
 				<!--/rightbanners-->
 
 			</div>
@@ -90,12 +85,10 @@
     	<!--/mainblock-->
 		
 		<!--footer-->
-    	<?php include('footer.php') ?>
+    	<?php include('components/footer.php') ?>
     	<!--/footer-->
 
     </div>
-
-    <script type="text/javascript" src="js/script.js"></script>
   </body>
 
 </html>

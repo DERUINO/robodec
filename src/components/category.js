@@ -1,5 +1,5 @@
-<?php echo
-	'<div class="choice_title">Какая мебель вас интересует?</div>
+
+	<div class="choice_title">Какая мебель вас интересует?</div>
 	<div class="row myrow justify-content-center">
 		<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
 			<div class="choiceblock choiceblock_1">
@@ -40,5 +40,4 @@
 				</div>
 			</div>
 		</div>
-	</div>'
-?>
+	</div>

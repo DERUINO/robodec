@@ -8,12 +8,7 @@
 
     <title>Контакты/Виртуальный дизайнер</title>
 
-	<link rel="shortcut icon" href="css/images/favicon.png" type="image/png">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
   </head>
 
   <body>
@@ -21,7 +16,7 @@
     <div class="container_fluid wrapper">
 
 		<!--header-->
-    	<?php include ('header.php') ?>
+    	<?php include ('components/header.html') ?>
     	<!--/header-->
 
     	<!--mainblock-->
@@ -29,14 +24,14 @@
 			<div class="row myrow justify-content-center">
 
 				<!--leftbanners-->
-				<?php include ('leftbanners.php') ?>
+				<?php include ('components/leftbanners.html') ?>
 				<!--/leftbanners-->
 
 				<div class="mycol col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
 					<div class="mainblock static">
 
 						<!--menu-->
-						<?php include('menu.php') ?>
+						<?php include('components/menu.html') ?>
 						<!--/menu-->
 
 						<!--contactsscreen-->
@@ -47,7 +42,7 @@
 							<div class="row myrow">
 								<div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4 mycol">
 									<div class="about_img">
-										<img src="css/images/contacts.png" alt="" width="100%">
+										<img src="assets/images/contacts.png" alt="" width="100%">
 									</div>
 								</div>
 								<div class="col-12 col-sm-8 col-md-8 col-lg-8 col-xl-8 mycol">
@@ -88,7 +83,7 @@
 				</div>
 
 				<!--rightbanners-->
-				<?php include ('rightbanners.php') ?>
+				<?php include ('components/rightbanners.html') ?>
 				<!--/rightbanners-->
 
 			</div>
@@ -96,12 +91,10 @@
     	<!--/mainblock-->
 		
 		<!--footer-->
-    	<?php include('footer.php') ?>
+    	<?php include('components/footer.html') ?>
     	<!--/footer-->
 
     </div>
-
-    <script type="text/javascript" src="js/script.js"></script>
   </body>
 
 </html>

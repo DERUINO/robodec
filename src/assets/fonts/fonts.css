@@ -1,0 +1,29 @@
+@font-face {
+	font-family: OpenSans;
+	src: url(./opensans.ttf);
+}
+
+@font-face {
+	font-family: OpenSansLight;
+	src: url(./opensanslight.ttf);
+}
+
+@font-face {
+	font-family: OpenSansSemiBold;
+	src: url(./opensanssemibold.ttf);
+}
+
+@font-face {
+	font-family: OpenSansExtraBold;
+	src: url(./opensansextrabold.ttf);
+}
+
+@font-face {
+	font-family: ProximaNovaBold;
+	src: url(./ProximaNovaBold.ttf);
+}
+
+@font-face {
+	font-family: ProximaNovaLight;
+	src: url(./ProximaNovaLight.ttf);
+}

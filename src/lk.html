@@ -8,12 +8,7 @@
 
     <title>Кабинет/Виртуальный дизайнер</title>
 
-	<link rel="shortcut icon" href="css/images/favicon.png" type="image/png">
-    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-
-    <script type="text/javascript" src="js/jquery.js"></script>
-    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+	<link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
   </head>
 
   <body>
@@ -21,7 +16,7 @@
     <div class="container_fluid wrapper">
 
 		<!--header-->
-    	<?php include ('header.php') ?>
+    	<?php include ('components/header.html') ?>
     	<!--/header-->
 
     	<!--mainblock-->
@@ -29,14 +24,14 @@
 			<div class="row myrow justify-content-center">
 
 				<!--leftbanners-->
-				<?php include ('leftbanners.php') ?>
+				<?php include ('components/leftbanners.html') ?>
 				<!--/leftbanners-->
 
 				<div class="mycol col-12 col-sm-12 col-md-10 col-lg-8 col-xl-8">
 					<div class="mainblock static lk_static">
 
 						<!--menu-->
-						<?php include('menu.php') ?>
+						<?php include('components/menu.html') ?>
 						<!--/menu-->
 
 						<!--lkscreen-->
@@ -93,11 +88,11 @@
 								Последние 3D картинки, которые вы смотрели:
 							</div>
 							<div class="lk_img_last">
-								<img src="css/images/test.jpg" alt="">
-								<img src="css/images/test.jpg" alt="">
-								<img src="css/images/test.jpg" alt="">
-								<img src="css/images/test.jpg" alt="">
-								<img src="css/images/test.jpg" alt="">
+								<img src="assets/images/test.jpg" alt="">
+								<img src="assets/images/test.jpg" alt="">
+								<img src="assets/images/test.jpg" alt="">
+								<img src="assets/images/test.jpg" alt="">
+								<img src="assets/images/test.jpg" alt="">
 							</div>
 							<div class="lk_subscribe">
 								<table>
@@ -141,7 +136,7 @@
 				</div>
 
 				<!--rightbanners-->
-				<?php include ('rightbanners.php') ?>
+				<?php include ('components/rightbanners.html') ?>
 				<!--/rightbanners-->
 
 			</div>
@@ -149,12 +144,10 @@
     	<!--/mainblock-->
 		
 		<!--footer-->
-    	<?php include('footer.php') ?>
+    	<?php include('components/footer.html') ?>
     	<!--/footer-->
 
     </div>
-
-    <script type="text/javascript" src="js/script.js"></script>
   </body>
 
 </html>
